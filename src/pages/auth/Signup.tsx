@@ -55,8 +55,8 @@ function Signup() {
 
   return (
     <div className="min-h-screen bg-base-200 flex items-center">
-      <div className="card mx-auto w-full max-w-2xl  shadow-xl">
-        <div className="py-24 px-10">
+      <div className="card mx-auto w-full max-w-2xl shadow-xl">
+        <div className="px-10 py-5 bg-base-100 rounded-xl">
           <h2 className="text-2xl font-semibold mb-2 text-center">Sign Up</h2>
           <form onSubmit={(e) => submitForm(e)}>
             <div className="mb-4">
